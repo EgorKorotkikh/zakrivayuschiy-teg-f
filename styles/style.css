@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-family-inter);
-  font-variation-settings: var(--font-weight-inter-regular);
+  font-variation-settings: "wght" var(--font-weight-inter-regular);
   background-image: var(--background-image-page);
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,7 +58,7 @@
 
 .card-title {
   font-family: var(--font-family-inter);
-  font-weight: var(--font-weight-inter-bold);
+  font-variation-settings: "wght" var(--font-weight-PressStart-bold);
   font-size: 18px;
   padding-left: 10px;
   padding-block-start: 5px;
@@ -159,7 +159,6 @@
 }
 
 .card__icon-button {
-  border: none;
   padding: 0;
   cursor: pointer;
   block-size: 40px;
@@ -243,7 +242,7 @@
   outline: none;
 }
 
-.main-button:focus-visible{
+.main-button:focus-visible {
   outline: none;
   box-shadow: 2px 2px #000;
   transition: .5s;
