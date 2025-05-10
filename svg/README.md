@@ -1,1 +1,1 @@
-В этой папке будут храниться все необходимые SVG-файлы для сайта.
+https://egorkorotkikh.github.io/zakrivayuschiy-teg-f/  https://github.com/EgorKorotkikh/zakrivayuschiy-teg-f
