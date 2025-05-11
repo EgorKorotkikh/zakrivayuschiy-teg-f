@@ -108,7 +108,7 @@
 }
 
 .hue-rotate {
-  filter: hue-rotate(50%);
+  filter: hue-rotate(0.5turn);
 }
 
 .invert {
@@ -119,11 +119,11 @@
   filter: blur(5px) grayscale(1);
 }
 
-@supports (text-stroke: 1px #fff) {
+@supports (text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff) {
   .label-image {
     text-shadow: none;
     -webkit-text-stroke: 1px #fff;
-    text-stroke: 1px #fff
+    text-stroke: 1px #fff;
   }
 }
 
